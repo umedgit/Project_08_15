@@ -129,28 +129,28 @@ formatter.match({
   "location": "LoginSteps.navigate_to_http_automationpractice_com()"
 });
 formatter.result({
-  "duration": 9264989400,
+  "duration": 10531718900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 1613021300,
+  "duration": 1668101000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_the_username_and_password_and_click_on_login_button()"
 });
 formatter.result({
-  "duration": 2642593600,
+  "duration": 2444734100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_should_login_successfully()"
 });
 formatter.result({
-  "duration": 19859000,
+  "duration": 25726000,
   "status": "passed"
 });
 formatter.match({
@@ -167,11 +167,11 @@ formatter.match({
   "location": "SocialNetSteps.clickOnAndVerify(String,String)"
 });
 formatter.result({
-  "duration": 5571710500,
+  "duration": 6694204700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 805612100,
+  "duration": 969045700,
   "status": "passed"
 });
 formatter.scenario({
@@ -215,28 +215,28 @@ formatter.match({
   "location": "LoginSteps.navigate_to_http_automationpractice_com()"
 });
 formatter.result({
-  "duration": 7413632900,
+  "duration": 8607855100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 1149319400,
+  "duration": 2445305900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_the_username_and_password_and_click_on_login_button()"
 });
 formatter.result({
-  "duration": 2073944700,
+  "duration": 2997904500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_should_login_successfully()"
 });
 formatter.result({
-  "duration": 29359200,
+  "duration": 32194000,
   "status": "passed"
 });
 formatter.match({
@@ -253,12 +253,12 @@ formatter.match({
   "location": "SocialNetSteps.clickOnAndVerify(String,String)"
 });
 formatter.result({
-  "duration": 2284141300,
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat POM.ParentPOM.verifyURLContainsText(ParentPOM.java:55)\r\n\tat Steps.SocialNetSteps.clickOnAndVerify(SocialNetSteps.java:14)\r\n\tat ✽.And Click on \"twitter\" and verify \"failStep\"(SocialNetworks.feature:9)\r\n",
+  "duration": 2472494700,
+  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat pom.ParentPOM.verifyURLContainsText(ParentPOM.java:55)\r\n\tat steps.SocialNetSteps.clickOnAndVerify(SocialNetSteps.java:14)\r\n\tat ✽.And Click on \"twitter\" and verify \"failStep\"(SocialNetworks.feature:9)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 2067862600,
+  "duration": 2858407300,
   "status": "passed"
 });
 formatter.scenario({
@@ -302,28 +302,28 @@ formatter.match({
   "location": "LoginSteps.navigate_to_http_automationpractice_com()"
 });
 formatter.result({
-  "duration": 7944792300,
+  "duration": 9457020100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 1302402500,
+  "duration": 1777139400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_the_username_and_password_and_click_on_login_button()"
 });
 formatter.result({
-  "duration": 2179353900,
+  "duration": 2543127100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_should_login_successfully()"
 });
 formatter.result({
-  "duration": 20591600,
+  "duration": 26075500,
   "status": "passed"
 });
 formatter.match({
@@ -340,11 +340,11 @@ formatter.match({
   "location": "SocialNetSteps.clickOnAndVerify(String,String)"
 });
 formatter.result({
-  "duration": 2485019200,
+  "duration": 3251781300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 746337900,
+  "duration": 963835400,
   "status": "passed"
 });
 formatter.scenario({
@@ -388,28 +388,28 @@ formatter.match({
   "location": "LoginSteps.navigate_to_http_automationpractice_com()"
 });
 formatter.result({
-  "duration": 7498410100,
+  "duration": 8163935100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 1222241100,
+  "duration": 1366784500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_the_username_and_password_and_click_on_login_button()"
 });
 formatter.result({
-  "duration": 2203935300,
+  "duration": 2123964100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_should_login_successfully()"
 });
 formatter.result({
-  "duration": 33787000,
+  "duration": 45654300,
   "status": "passed"
 });
 formatter.match({
@@ -426,11 +426,11 @@ formatter.match({
   "location": "SocialNetSteps.clickOnAndVerify(String,String)"
 });
 formatter.result({
-  "duration": 2260865000,
+  "duration": 2414875500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 737479300,
+  "duration": 1383367200,
   "status": "passed"
 });
 });

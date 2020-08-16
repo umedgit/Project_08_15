@@ -1,6 +1,6 @@
-package Steps;
+package steps;
 
-import POM.SocialNetworksPOM;
+import pom.SocialNetworksPOM;
 import cucumber.api.java.en.And;
 
 public class SocialNetSteps {

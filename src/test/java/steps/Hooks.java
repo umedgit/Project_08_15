@@ -1,6 +1,6 @@
-package Steps;
+package steps;
 
-import Utilities.SingletonWebDriver;
+import utilities.SingletonWebDriver;
 import com.cucumber.listener.Reporter;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -29,7 +29,7 @@ public class Hooks {
 
             TakesScreenshot screeShot = ((TakesScreenshot) SingletonWebDriver.getDriver());
             File sourceFile = screeShot.getScreenshotAs(OutputType.FILE);
-            File destinationFile = new File("target/ExtentReport/screenshots/" + scenarioName + "_"
+            File destinationFile = new File("target/extent-report/screenshots/" + scenarioName + "_"
                     + dateInString + ".png");
 
             try {

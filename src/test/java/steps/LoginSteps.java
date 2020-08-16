@@ -1,7 +1,7 @@
-package Steps;
+package steps;
 
-import POM.LoginPOM;
-import Utilities.SingletonWebDriver;
+import pom.LoginPOM;
+import utilities.SingletonWebDriver;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
