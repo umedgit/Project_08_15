@@ -11,9 +11,10 @@ public class SingletonWebDriver {
     private static String browser;
 
 
-    public void setBrowser(String browser){
-        this.browser = browser;
-
+    public static void setBrowser(String browserName) {
+        if (browserName == null) {
+            browser = "chrome";
+        } else browser = browserName;
     }
 
     public static WebDriver getDriver() {
@@ -25,24 +26,28 @@ public class SingletonWebDriver {
 //        }
 
         if (driver == null) {
+            if (browser == null) {
+                setBrowser(null);
+            }
             switch (browser) {
-                default:
-                    WebDriverManager.chromedriver().setup(); // this line is for System.setproperty
-                    driver = new ChromeDriver();
-                    break;
 
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup(); // this line is for System.setproperty
                     driver = new FirefoxDriver();
                     break;
+                default:
+                    WebDriverManager.chromedriver().setup(); // this line is for System.setproperty
+                    driver = new ChromeDriver();
+                    break;
             }
 
-        } return driver;
+        }
+        return driver;
     }
 
 
-    public static void quitDriver(){
-        if(driver != null){
+    public static void quitDriver() {
+        if (driver != null) {
             driver.quit();
             driver = null;
         }
