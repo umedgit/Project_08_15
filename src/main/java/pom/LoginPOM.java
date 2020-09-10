@@ -10,6 +10,7 @@ public class LoginPOM extends ParentPOM {
     WebElement myElement;
 
     public LoginPOM() {
+
         PageFactory.initElements(SingletonWebDriver.getDriver(), this);
     }
 

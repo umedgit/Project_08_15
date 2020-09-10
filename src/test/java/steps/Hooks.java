@@ -27,8 +27,8 @@ public class Hooks {
   //          dateInString = dateInString.replace(":", " ");
             String scenarioName = scenario.getName().replaceAll(" ", "_");
 
-            TakesScreenshot screeShot = ((TakesScreenshot) SingletonWebDriver.getDriver());
-            File sourceFile = screeShot.getScreenshotAs(OutputType.FILE);
+            TakesScreenshot screenShot = ((TakesScreenshot) SingletonWebDriver.getDriver());
+            File sourceFile = screenShot.getScreenshotAs(OutputType.FILE);
             File destinationFile = new File("target/extent-report/screenshots/" + scenarioName + "_"
                     + dateInString + ".png");
 

@@ -1,0 +1,17 @@
+<suite name="Project 8/15" parallel="methods" thread-count="2">
+
+    <test name="SocialNetworks on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="featurefile_runners.RunSocialNetworks"/>
+        </classes>
+    </test>
+
+    <test name="SocialNetworks on Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="featurefile_runners.RunSocialNetworks"/>
+        </classes>
+    </test>
+
+</suite>

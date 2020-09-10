@@ -1,9 +1,12 @@
-package testRunners;
+package featurefile_runners;
 
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import utilities.SingletonWebDriver;
 
 import java.io.File;
 
@@ -17,6 +20,13 @@ import java.io.File;
 )
 
 public class RunSocialNetworks extends AbstractTestNGCucumberTests {
+
+    @BeforeClass
+    @Parameters("browser")
+    public static void beforeMethod(String browser){
+        SingletonWebDriver singletonWebDriver = new SingletonWebDriver();
+        singletonWebDriver.setBrowser(browser);
+    }
 
     @AfterClass
     public static void afterClass(){
